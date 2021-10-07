@@ -1,0 +1,16 @@
+.cardsPage{
+    display: flex;
+}
+.cardsPage_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 78%;
+    padding: 20px
+}
+@media (max-width: 771px){
+    .cardsPage_container {
+        width: 58%;
+        padding: 0;
+    }
+}

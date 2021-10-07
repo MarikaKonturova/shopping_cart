@@ -1,0 +1,13 @@
+.header {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+@media (max-width: 771px) {
+    .search {
+        display: none !important;
+    }
+}
+
